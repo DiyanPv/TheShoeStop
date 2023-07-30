@@ -1,0 +1,56 @@
+{
+  "women": [
+    {
+      "color": "Black",
+      "image": "women/black_shoe.jpg",
+      "name": "Elegant Black Heels",
+      "description": "Classic black heels for any formal occasion.",
+      "price": 49.99,
+      "stars": 4.5
+    },
+    {
+      "color": "Red",
+      "image": "women/red_sneakers.jpg",
+      "name": "Sporty Red Sneakers",
+      "description": "Comfortable and stylish sneakers for active days.",
+      "price": 34.95,
+      "stars": 4.2
+    }
+  ],
+  "men": [
+    {
+      "color": "Brown",
+      "image": "men/brown_loafers.jpg",
+      "name": "Classic Brown Loafers",
+      "description": "Timeless brown loafers for a sophisticated look.",
+      "price": 59.99,
+      "stars": 4.7
+    },
+    {
+      "color": "Blue",
+      "image": "men/blue_running_shoes.jpg",
+      "name": "Performance Blue Running Shoes",
+      "description": "High-quality running shoes for athletes.",
+      "price": 79.95,
+      "stars": 4.9
+    }
+  ],
+  "children": [
+    {
+      "color": "Pink",
+      "image": "children/pink_sandals.jpg",
+      "name": "Adorable Pink Sandals",
+      "description": "Cute pink sandals for little girls.",
+      "price": 24.99,
+      "stars": 4.3
+    },
+    {
+      "color": "Green",
+      "image": "children/green_sneakers.jpg",
+      "name": "Playful Green Sneakers",
+      "description": "Stylish and fun sneakers for active kids.",
+      "price": 29.95,
+      "stars": 4.1
+    }
+  ]
+}

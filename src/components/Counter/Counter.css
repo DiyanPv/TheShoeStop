@@ -1,0 +1,21 @@
+.counter-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-direction: row;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.counter-product-quantity {
+  color: gainsboro;
+  font-size: 0.8rem;
+  padding-right: 1rem;
+}
+
+.counter-product-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+}

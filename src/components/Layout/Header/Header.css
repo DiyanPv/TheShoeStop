@@ -1,0 +1,43 @@
+.main-header {
+  display: flex;
+  position: sticky;
+  flex-direction: row;
+  height: 14%;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid gainsboro;
+}
+
+.logo-image {
+  display: flex;
+}
+
+.container-logo {
+  display: flex;
+  align-items: center;
+}
+
+.cart-main {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-menu-main {
+  border-bottom: 1px solid gainsboro;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 0.9rem;
+  align-items: center;
+}
+
+.isHoverable:hover {
+  cursor: pointer;
+}
+
+.isHoverable {
+  margin: 0;
+}
