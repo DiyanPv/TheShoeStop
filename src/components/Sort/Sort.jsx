@@ -1,12 +1,38 @@
 import React from "react";
+import { setSort } from "../../redux/slices/productSlice";
+import { Select, MenuItem, InputLabel, FormControl } from "@mui/material";
+import { useDispatch } from "react-redux";
 
 const Sort = () => {
-  let sortingParameter = ["Relevance", "Orders", "Ranking"];
+  const dispatch = useDispatch();
+  const [selectedCategory, setSelectedCategory] = React.useState(null);
+
+  const handleChange = (e) => {
+    const { target } = e;
+    if (!target) return;
+
+    dispatch(setSort(target))
+    setSelectedCategory(target);
+  };
 
   return (
-    <div className="w-[42%] cursor-pointer">
-      <p className="text-xs font-light">Sort</p>
-      <p className="border-b-2">{sortingParameter[2]}</p>
+    <div className="w-[48%]">
+      <FormControl style={{ width: "100%" }}>
+        <InputLabel id="sort-select" className="pb-2">
+          Sort
+        </InputLabel>
+        <Select
+          labelId="sort-select"
+          id="sort-select"
+          value={selectedCategory ? selectedCategory.value : ""}
+          label="Sort"
+          onChange={handleChange}
+        >
+          <MenuItem value={"relevance"}>Relevance</MenuItem>
+          <MenuItem value={"orders"}>Orders</MenuItem>
+          <MenuItem value={"ranking"}>Ranking</MenuItem>
+        </Select>
+      </FormControl>
     </div>
   );
 };
