@@ -11,7 +11,7 @@
     },
     {
       "color": "Black",
-      "image": "women/black_high_heels.jpg",
+      "image": "https://m.media-amazon.com/images/I/610HoLhRsoL._AC_UL400_.jpg",
       "name": "Elegant Black High Heels",
       "description": "Classic black high heels for a sophisticated look.",
       "price": 49.99,
@@ -20,7 +20,7 @@
     },
     {
       "color": "White",
-      "image": "women/white_sneakers.jpg",
+      "image": "https://m.media-amazon.com/images/I/41DzpaOYQqL._AC_UL400_.jpg",
       "name": "Women's White Sneakers",
       "description": "Comfortable and stylish white sneakers for women.",
       "price": 39.95,
@@ -29,7 +29,7 @@
     },
     {
       "color": "Red",
-      "image": "women/red_running_shoes.jpg",
+      "image": "https://m.media-amazon.com/images/I/71WiaiOTYdL._AC_UL400_.jpg",
       "name": "Women's Red Running Shoes",
       "description": "Red running shoes for active women.",
       "price": 54.99,
@@ -38,7 +38,7 @@
     },
     {
       "color": "Purple",
-      "image": "women/purple_sandals.jpg",
+      "image": "https://m.media-amazon.com/images/I/712xdhHWrAL._AC_UL400_.jpg",
       "name": "Women's Purple Sandals",
       "description": "Purple sandals for stylish women.",
       "price": 29.99,
@@ -47,7 +47,7 @@
     },
     {
       "color": "Green",
-      "image": "women/green_sneakers.jpg",
+      "image": "https://m.media-amazon.com/images/I/71+CwEMSRBL._AC_UL400_.jpg",
       "name": "Women's Green Sneakers",
       "description": "Green sneakers for active and fashionable women.",
       "price": 49.95,
@@ -56,7 +56,7 @@
     },
     {
       "color": "Blue",
-      "image": "women/blue_loafers.jpg",
+      "image": "https://m.media-amazon.com/images/I/71kAVUr68jL._AC_UL400_.jpg",
       "name": "Women's Blue Loafers",
       "description": "Classic blue loafers for women.",
       "price": 44.99,
@@ -65,7 +65,7 @@
     },
     {
       "color": "Black",
-      "image": "women/black_sneakers.jpg",
+      "image": "https://m.media-amazon.com/images/I/51PgLKADR9L._AC_UL400_.jpg",
       "name": "Women's Black Sneakers",
       "description": "Stylish and comfortable black sneakers for women.",
       "price": 59.99,
@@ -74,7 +74,7 @@
     },
     {
       "color": "White",
-      "image": "women/white_sandals.jpg",
+      "image": "https://m.media-amazon.com/images/I/61NVZ8artWL._AC_UL400_.jpg",
       "name": "Women's White Sandals",
       "description": "Classic white sandals for women.",
       "price": 34.95,
@@ -83,7 +83,7 @@
     },
     {
       "color": "Red",
-      "image": "women/red_high_heels.jpg",
+      "image": "https://m.media-amazon.com/images/I/61Gte0flyrL._AC_UL400_.jpg",
       "name": "Women's Red High Heels",
       "description": "Red high heels for a bold and confident look.",
       "price": 54.99,
@@ -92,7 +92,7 @@
     },
     {
       "color": "Purple",
-      "image": "women/purple_sneakers.jpg",
+      "image": "https://m.media-amazon.com/images/I/71G+OrSrBfL._AC_UL400_.jpg",
       "name": "Women's Purple Sneakers",
       "description": "Purple sneakers for a unique style.",
       "price": 39.99,
@@ -101,7 +101,7 @@
     },
     {
       "color": "Green",
-      "image": "women/green_sandals.jpg",
+      "image": "https://m.media-amazon.com/images/I/512xA3mE3hL._AC_UL400_.jpg",
       "name": "Women's Green Sandals",
       "description": "Green sandals for a trendy and comfortable look.",
       "price": 29.95,
@@ -110,7 +110,7 @@
     },
     {
       "color": "Blue",
-      "image": "women/blue_sandals.jpg",
+      "image": "https://m.media-amazon.com/images/I/41OivfhasUL._AC_UL400_.jpg",
       "name": "Women's Blue Sandals",
       "description": "Comfortable and stylish blue sandals for women.",
       "price": 34.95,
@@ -119,7 +119,7 @@
     },
     {
       "color": "Black",
-      "image": "women/black_sneakers.jpg",
+      "image": "https://m.media-amazon.com/images/I/71XjYtwZNRL._AC_UL400_.jpg",
       "name": "Women's Black Sneakers",
       "description": "Versatile and fashionable black sneakers for women.",
       "price": 49.95,
@@ -128,7 +128,7 @@
     },
     {
       "color": "Black",
-      "image": "women/black_shoe.jpg",
+      "image": "https://m.media-amazon.com/images/I/71nwY2TfzdL._AC_UL400_.jpg",
       "name": "Elegant Black Heels",
       "description": "Classic black heels for any formal occasion.",
       "price": 49.99,
@@ -137,7 +137,7 @@
     },
     {
       "color": "Red",
-      "image": "women/red_sneakers.jpg",
+      "image": "https://m.media-amazon.com/images/I/81u6wdNs8UL._AC_UL400_.jpg",
       "name": "Sporty Red Sneakers",
       "description": "Comfortable and stylish sneakers for active days.",
       "price": 34.95,
@@ -154,7 +154,7 @@
     },
     {
       "color": "Blue",
-      "image": "men/blue_running_shoes.jpg",
+      "image": "https://m.media-amazon.com/images/I/819IhFwqSWS._AC_UL400_.jpg",
       "name": "Performance Blue Running Shoes",
       "description": "High-quality running shoes for athletes.",
       "price": 79.95,
@@ -163,18 +163,18 @@
     },
     {
       "color": "Pink",
-      "image": "children/pink_sandals.jpg",
+      "image": "https://m.media-amazon.com/images/I/61LBdvuwZ1L._AC_UL400_.jpg",
       "name": "Adorable Pink Sandals",
-      "description": "Cute pink sandals for little girls.",
+      "description": "Cute pink sandals.",
       "price": 24.99,
       "stars": 4.3,
       "orders": 50
     },
     {
       "color": "Green",
-      "image": "children/green_sneakers.jpg",
+      "image": "https://m.media-amazon.com/images/I/71ViiQMJDNL._AC_UL400_.jpg",
       "name": "Playful Green Sneakers",
-      "description": "Stylish and fun sneakers for active kids.",
+      "description": "Stylish and fun sneakers for active women.",
       "price": 29.95,
       "stars": 4.1,
       "orders": 70
@@ -186,6 +186,22 @@
       "image": "https://m.media-amazon.com/images/I/51HvrRuhbBL._AC_UY575_.jpg",
       "name": "Classic Brown Loafers",
       "description": "Timeless brown loafers for a sophisticated look.",
+      "price": 59.99,
+      "stars": 4.7
+    },
+    {
+      "color": "Purple",
+      "image": "https://m.media-amazon.com/images/I/71rL7-Yv90L._AC_UL400_.jpg",
+      "name": "Purple Shoes",
+      "description": "Extravagant look.",
+      "price": 59.99,
+      "stars": 4.7
+    },
+    {
+      "color": "Green",
+      "image": "https://m.media-amazon.com/images/I/71NrioM1wDL._AC_UL400_.jpg",
+      "name": "Sporty Green Sneakers",
+      "description": "Elegant fit for all occasions.",
       "price": 59.99,
       "stars": 4.7
     },
@@ -274,16 +290,8 @@
   ],
   "children": [
     {
-      "color": "Pink",
-      "image": "children/pink_sandals.jpg",
-      "name": "Adorable Pink Sandals",
-      "description": "Cute pink sandals for little girls.",
-      "price": 24.99,
-      "stars": 4.3
-    },
-    {
       "color": "Green",
-      "image": "children/green_sneakers.jpg",
+      "image": "https://m.media-amazon.com/images/I/71Asu6etpJL._AC_UL400_.jpg",
       "name": "Playful Green Sneakers",
       "description": "Stylish and fun sneakers for active kids.",
       "price": 29.95,
@@ -291,7 +299,7 @@
     },
     {
       "color": "Red",
-      "image": "children/red_sneakers.jpg",
+      "image": "https://m.media-amazon.com/images/I/7187guvjjpL._AC_UL400_.jpg",
       "name": "Kids' Red Sneakers",
       "description": "Sporty and stylish red sneakers for kids.",
       "price": 26.99,
@@ -300,7 +308,7 @@
     },
     {
       "color": "Blue",
-      "image": "children/blue_running_shoes.jpg",
+      "image": "https://m.media-amazon.com/images/I/71IfOHvMvYL._AC_UL400_.jpg",
       "name": "Kids' Blue Running Shoes",
       "description": "Comfortable and supportive running shoes for kids.",
       "price": 34.99,
@@ -309,7 +317,7 @@
     },
     {
       "color": "Green",
-      "image": "children/green_sneakers.jpg",
+      "image": "https://m.media-amazon.com/images/I/715go0RhJCL._AC_UL400_.jpg",
       "name": "Kids' Green Sneakers",
       "description": "Green sneakers for active and playful kids.",
       "price": 26.99,
@@ -318,7 +326,7 @@
     },
     {
       "color": "White",
-      "image": "children/white_sandals.jpg",
+      "image": "https://m.media-amazon.com/images/I/51Vb8wEGXJS._AC_UL400_.jpg",
       "name": "Kids' White Sandals",
       "description": "Classic white sandals for kids.",
       "price": 19.95,
@@ -327,25 +335,17 @@
     },
     {
       "color": "Black",
-      "image": "children/black_sneakers.jpg",
+      "image": "https://m.media-amazon.com/images/I/41o-4Tp+ycL._AC_UL400_.jpg",
       "name": "Kids' Black Sneakers",
       "description": "Stylish and comfortable black sneakers for kids.",
       "price": 29.99,
       "stars": 4.6,
       "orders": 120
     },
-    {
-      "color": "Purple",
-      "image": "children/purple_sandals.jpg",
-      "name": "Kids' Purple Sandals",
-      "description": "Playful and comfortable purple sandals for kids.",
-      "price": 22.95,
-      "stars": 4.0,
-      "orders": 50
-    },
+
     {
       "color": "Blue",
-      "image": "children/blue_sneakers.jpg",
+      "image": "https://m.media-amazon.com/images/I/81mXu3-IKGL._AC_UL400_.jpg",
       "name": "Kids' Blue Sneakers",
       "description": "Durable and supportive blue sneakers for kids.",
       "price": 31.99,
@@ -354,7 +354,7 @@
     },
     {
       "color": "White",
-      "image": "children/white_running_shoes.jpg",
+      "image": "https://m.media-amazon.com/images/I/51u2FzEhBXS._AC_UL400_.jpg",
       "name": "Kids' White Running Shoes",
       "description": "White running shoes for active kids.",
       "price": 28.99,
@@ -363,7 +363,7 @@
     },
     {
       "color": "Red",
-      "image": "children/red_sandals.jpg",
+      "image": "https://m.media-amazon.com/images/I/71sHgy04h4L._AC_UL400_.jpg",
       "name": "Red Comfy Sandals",
       "description": "Comfy red sandals for kids.",
       "price": 19.95,
@@ -372,7 +372,7 @@
     },
     {
       "color": "Black",
-      "image": "children/black_sandals.jpg",
+      "image": "https://m.media-amazon.com/images/I/71VAvuVM1qL._AC_UY575_.jpg",
       "name": "Kids' Black Sandals",
       "description": "Stylish and comfortable black sandals for kids.",
       "price": 24.95,
@@ -381,7 +381,7 @@
     },
     {
       "color": "Green",
-      "image": "children/green_sandals.jpg",
+      "image": "https://m.media-amazon.com/images/I/71eSrIKfmDL._AC_SY575._SX._UX._SY._UY_.jpg",
       "name": "Green Adventure Sandals",
       "description": "Adventure-ready green sandals for kids.",
       "price": 26.99,
@@ -390,16 +390,16 @@
     },
     {
       "color": "Blue",
-      "image": "children/blue_sandals.jpg",
+      "image": "https://m.media-amazon.com/images/I/710PuKoq7uL._AC_SY575._SX._UX._SY._UY_.jpg",
       "name": "Kids' Blue Sandals",
-      "description": "Comfortable and stylish blue sandals for kids.",
+      "description": "Comfortable and stylish blue beachy sandals for kids.",
       "price": 23.95,
       "stars": 4.2,
       "orders": 65
     },
     {
       "color": "Red",
-      "image": "children/red_running_shoes.jpg",
+      "image": "https://m.media-amazon.com/images/I/71veMS-+KFL._AC_UL400_.jpg",
       "name": "Kids' Red Running Shoes",
       "description": "Red running shoes for active kids.",
       "price": 28.99,
@@ -408,34 +408,17 @@
     },
     {
       "color": "Purple",
-      "image": "children/purple_sneakers.jpg",
+      "image": "https://m.media-amazon.com/images/I/81cdS3jMwVL._AC_UL400_.jpg",
       "name": "Kids' Purple Sneakers",
       "description": "Purple sneakers for stylish kids.",
       "price": 25.99,
       "stars": 4.3,
       "orders": 85
     },
-    {
-      "color": "Black",
-      "image": "children/black_sandals.jpg",
-      "name": "Kids' Black Sandals",
-      "description": "Stylish and comfortable black sandals for kids.",
-      "price": 21.95,
-      "stars": 4.0,
-      "orders": 55
-    },
-    {
-      "color": "Blue",
-      "image": "children/blue_sandals.jpg",
-      "name": "Kids' Blue Sandals",
-      "description": "Comfortable and stylish blue sandals for kids.",
-      "price": 23.95,
-      "stars": 4.2,
-      "orders": 75
-    },
+
     {
       "color": "Green",
-      "image": "children/green_sneakers.jpg",
+      "image": "https://m.media-amazon.com/images/I/71L7SPfXk2L._AC_UL400_.jpg",
       "name": "Kids' Green Sneakers",
       "description": "Green sneakers for active and playful kids.",
       "price": 26.99,
@@ -444,7 +427,7 @@
     },
     {
       "color": "White",
-      "image": "children/white_sneakers.jpg",
+      "image": "https://m.media-amazon.com/images/I/61tG7TnrFDL._AC_UL400_.jpg",
       "name": "Kids' White Sneakers",
       "description": "Classic white sneakers for kids.",
       "price": 24.99,
@@ -456,7 +439,7 @@
     {
       "category": "women",
       "color": "Blue",
-      "image": "women/blue_high_heels.jpg",
+      "image": "https://m.media-amazon.com/images/I/711VOaQ9zkL._AC_UY575_.jpg",
       "name": "Elegant Blue High Heels",
       "description": "Stylish blue high heels for a glamorous look.",
       "price": 54.99,
@@ -466,7 +449,7 @@
     {
       "category": "women",
       "color": "Black",
-      "image": "women/black_booties.jpg",
+      "image": "https://m.media-amazon.com/images/I/61ndjxi8POL._AC_UL400_.jpg",
       "name": "Chic Black Booties",
       "description": "Trendy black booties for a chic appearance.",
       "price": 49.95,
@@ -476,7 +459,7 @@
     {
       "category": "men",
       "color": "Brown",
-      "image": "men/brown_loafers.jpg",
+      "image": "https://m.media-amazon.com/images/I/71+BMCKwhjL._AC_UL400_.jpg",
       "name": "Classic Brown Loafers",
       "description": "Timeless brown loafers for a sophisticated look.",
       "price": 59.99,
@@ -486,7 +469,7 @@
     {
       "category": "children",
       "color": "Pink",
-      "image": "children/pink_sandals.jpg",
+      "image": "https://m.media-amazon.com/images/I/61LBdvuwZ1L._AC_UL400_.jpg",
       "name": "Adorable Pink Sandals",
       "description": "Cute pink sandals for little girls.",
       "price": 24.99,
@@ -496,7 +479,7 @@
     {
       "category": "women",
       "color": "White",
-      "image": "women/white_wedges.jpg",
+      "image": "https://m.media-amazon.com/images/I/71nQgGsZ2YL._AC_UL400_.jpg",
       "name": "Stylish White Wedges",
       "description": "Comfortable and stylish white wedges for women.",
       "price": 39.95,
@@ -505,10 +488,10 @@
     },
     {
       "category": "women",
-      "color": "Red",
-      "image": "women/red_loafers.jpg",
-      "name": "Classic Red Loafers",
-      "description": "Timeless red loafers for a sophisticated look.",
+      "color": "black",
+      "image": "https://m.media-amazon.com/images/I/61EitohLCAL._AC_UL400_.jpg",
+      "name": "Classic Black Loafers",
+      "description": "Timeless black loafers for a sophisticated look.",
       "price": 44.99,
       "stars": 4.4,
       "orders": 90
@@ -516,7 +499,7 @@
     {
       "category": "men",
       "color": "Blue",
-      "image": "men/blue_running_shoes.jpg",
+      "image": "https://m.media-amazon.com/images/I/51N9LYNfAVL._AC_UL400_.jpg",
       "name": "Performance Blue Running Shoes",
       "description": "High-quality running shoes for athletes.",
       "price": 79.95,
@@ -526,7 +509,7 @@
     {
       "category": "children",
       "color": "Green",
-      "image": "children/green_sneakers.jpg",
+      "image": "https://m.media-amazon.com/images/I/71+CwEMSRBL._AC_UL400_.jpg",
       "name": "Playful Green Sneakers",
       "description": "Stylish and fun sneakers for active kids.",
       "price": 29.95,
@@ -536,7 +519,7 @@
     {
       "category": "women",
       "color": "Black",
-      "image": "women/black_sandals.jpg",
+      "image": "https://m.media-amazon.com/images/I/71j9z6uI0vL._AC_UL400_.jpg",
       "name": "Women's Black Sandals",
       "description": "Classic black sandals for a casual yet elegant look.",
       "price": 34.99,
@@ -546,7 +529,7 @@
     {
       "category": "women",
       "color": "Green",
-      "image": "women/green_booties.jpg",
+      "image": "https://m.media-amazon.com/images/I/71tG1tflfjL._AC_UL400_.jpg",
       "name": "Women's Green Booties",
       "description": "Green booties for a trendy and fashionable style.",
       "price": 54.95,
@@ -556,7 +539,7 @@
     {
       "category": "men",
       "color": "Red",
-      "image": "men/red_sneakers.jpg",
+      "image": "https://m.media-amazon.com/images/I/719WOA-cVoL._AC_UL400_.jpg",
       "name": "Sporty Red Sneakers",
       "description": "Comfortable and stylish sneakers for active days.",
       "price": 34.95,
@@ -566,7 +549,7 @@
     {
       "category": "women",
       "color": "Blue",
-      "image": "women/blue_sneakers.jpg",
+      "image": "https://m.media-amazon.com/images/I/61tWVzokvJL._AC_UL400_.jpg",
       "name": "Women's Blue Sneakers",
       "description": "Comfortable and stylish blue sneakers for women.",
       "price": 49.95,
@@ -576,7 +559,7 @@
     {
       "category": "men",
       "color": "Black",
-      "image": "men/black_loafers.jpg",
+      "image": "https://m.media-amazon.com/images/I/71PwW07r+9L._AC_UL400_.jpg",
       "name": "Classic Black Loafers",
       "description": "Timeless black loafers for a professional style.",
       "price": 59.99,
@@ -586,7 +569,7 @@
     {
       "category": "children",
       "color": "Green",
-      "image": "children/green_sneakers.jpg",
+      "image": "https://m.media-amazon.com/images/I/61YzCN5O3cL._AC_UL400_.jpg",
       "name": "Playful Green Sneakers",
       "description": "Stylish and fun sneakers for active kids.",
       "price": 29.95,
@@ -596,7 +579,7 @@
     {
       "category": "women",
       "color": "Black",
-      "image": "women/black_wedges.jpg",
+      "image": "https://m.media-amazon.com/images/I/61fh3FJ--1L._AC_UL400_.jpg",
       "name": "Women's Black Wedges",
       "description": "Black wedges for a versatile and flattering look.",
       "price": 39.99,
@@ -606,7 +589,7 @@
     {
       "category": "women",
       "color": "Red",
-      "image": "women/red_booties.jpg",
+      "image": "https://m.media-amazon.com/images/I/617u6bj1+LL._AC_SY575._SX._UX._SY._UY_.jpg",
       "name": "Women's Red Booties",
       "description": "Red booties for a bold and stylish appearance.",
       "price": 54.95,

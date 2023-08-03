@@ -25,6 +25,7 @@ const ProductContainer = () => {
       nextIndex,
       nextIndex + loadMoreAmount
     );
+    console.log(newVisibleAssets);
 
     setVisibleAssets((prevVisibleAssets) => [
       ...prevVisibleAssets,
@@ -45,10 +46,7 @@ const ProductContainer = () => {
         />
       ))}
       {visibleAssets.length < assets.length && visibleAssets.length > 1 && (
-        <div
-          onClick={handleLoadMore}
-          className="w-full py-2 flex justify-center align-center"
-        >
+        <div className="w-full py-2 flex justify-center align-center">
           <Button
             variant="contained"
             color="primary"

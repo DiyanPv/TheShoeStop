@@ -51,7 +51,7 @@ const Header = () => {
         {itemTypes.map((el) => {
           return (
             <p
-              className="isHoverable lg:text-xl"
+              className="isHoverable lg:text-2xl"
               key={el}
               onClick={initialSorting}
             >
@@ -74,10 +74,15 @@ const Header = () => {
       >
         <Fade in={isCartOpen}>
           {/* The content of the modal */}
-          <div className="modal-content sm:w-[70%] md:w-[80%] lg:w-[50%] bg-white py-2 px-4 rounded-md">
+          <div className="modal-content sm:w-[70%] md:w-[80%] lg:w-[50%] bg-white py-2 px-4 rounded-md flex items-center justify-center">
             <h2>Shopping Cart</h2>
             <p>Content of your shopping cart goes here.</p>
-            <Button onClick={handleClose} variant="contained" color="primary">
+            <Button
+              onClick={handleClose}
+              variant="contained"
+              color="primary"
+              className="w-[50%]"
+            >
               Close
             </Button>
           </div>
