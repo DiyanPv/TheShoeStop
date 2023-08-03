@@ -10,7 +10,7 @@ import React from "react";
 import "./ProductCard.css";
 const ProductCard = ({ url, name, details, stars, price }) => {
   return (
-    <div className="flex flex-col product-item-card relative xs:min-w-[100%] sm:min-w-[45%] sm:max-w-[45%] sm:min-h-[150px] md:min-w-[45%] md:max-w-[45%] md:min-h-[220px] lg:min-w-[23%] lg:min-h-[220px] lg:max-w-[30%] ">
+    <div className="flex flex-col product-item-card relative xs:min-w-[100%] sm:min-w-[45%] sm:max-w-[45%] sm:min-h-[220px] md:min-w-[45%] md:max-w-[45%] md:min-h-[220px] lg:min-w-[23%] lg:min-h-[320px] lg:max-w-[30%] box-shadow-card">
       <div
         className="w-full h-full"
         style={{

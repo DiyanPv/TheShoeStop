@@ -1,22 +1,31 @@
 import React, { useState } from "react";
 import "./ProductContainer.css";
 import ProductCard from "../ProductCard/ProductCard";
-import shoes from "../../data/shoes.json";
 import { useSelector } from "react-redux";
-
+import Button from "@mui/material/Button";
+import { useEffect } from "react";
 const ProductContainer = () => {
+  const assets = useSelector((state) => state.product.products);
+  //getting the products array based on currently selected category
   const itemsPerPage = 8;
   const loadMoreAmount = 4;
+
   const [visibleAssets, setVisibleAssets] = useState(
-    shoes.women.slice(0, itemsPerPage)
+    assets.slice(0, itemsPerPage)
   );
+
+  useEffect(() => {
+    setVisibleAssets(assets.slice(0, itemsPerPage));
+    //re-rendering assets on first page load and every redux products array change
+  }, [assets]);
 
   const handleLoadMore = () => {
     const nextIndex = visibleAssets.length;
-    const newVisibleAssets = shoes.women.slice(
+    const newVisibleAssets = assets.slice(
       nextIndex,
       nextIndex + loadMoreAmount
     );
+
     setVisibleAssets((prevVisibleAssets) => [
       ...prevVisibleAssets,
       ...newVisibleAssets,
@@ -35,12 +44,19 @@ const ProductContainer = () => {
           price={el.price}
         />
       ))}
-      {visibleAssets.length <= shoes.women.length && (
+      {visibleAssets.length < assets.length && visibleAssets.length > 1 && (
         <div
           onClick={handleLoadMore}
-          className="w-full font-serif text-xl py-2 flex justify-center align-center"
+          className="w-full py-2 flex justify-center align-center"
         >
-          <button className="border-2 px-4 py-2 rounded-md hover:bg-gray">Load More</button>
+          <Button
+            variant="contained"
+            color="primary"
+            className="border-2 px-4 rounded-md hover:bg-gray text-xl"
+            onClick={handleLoadMore}
+          >
+            Load More
+          </Button>
         </div>
       )}
     </div>

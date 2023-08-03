@@ -1,12 +1,139 @@
 {
   "women": [
     {
+      "color": "Red",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/0e41d11d-a5c8-4a6f-a565-43a27451988e/air-max-97-se-shoes-PFVmrs.png",
+      "name": "Sporty Red Sneakers",
+      "description": "Comfortable and stylish sneakers for active days.",
+      "price": 34.95,
+      "stars": 4.2,
+      "orders": 150
+    },
+    {
+      "color": "Black",
+      "image": "women/black_high_heels.jpg",
+      "name": "Elegant Black High Heels",
+      "description": "Classic black high heels for a sophisticated look.",
+      "price": 49.99,
+      "stars": 4.5,
+      "orders": 120
+    },
+    {
+      "color": "White",
+      "image": "women/white_sneakers.jpg",
+      "name": "Women's White Sneakers",
+      "description": "Comfortable and stylish white sneakers for women.",
+      "price": 39.95,
+      "stars": 4.3,
+      "orders": 90
+    },
+    {
+      "color": "Red",
+      "image": "women/red_running_shoes.jpg",
+      "name": "Women's Red Running Shoes",
+      "description": "Red running shoes for active women.",
+      "price": 54.99,
+      "stars": 4.4,
+      "orders": 105
+    },
+    {
+      "color": "Purple",
+      "image": "women/purple_sandals.jpg",
+      "name": "Women's Purple Sandals",
+      "description": "Purple sandals for stylish women.",
+      "price": 29.99,
+      "stars": 4.2,
+      "orders": 80
+    },
+    {
+      "color": "Green",
+      "image": "women/green_sneakers.jpg",
+      "name": "Women's Green Sneakers",
+      "description": "Green sneakers for active and fashionable women.",
+      "price": 49.95,
+      "stars": 4.5,
+      "orders": 100
+    },
+    {
+      "color": "Blue",
+      "image": "women/blue_loafers.jpg",
+      "name": "Women's Blue Loafers",
+      "description": "Classic blue loafers for women.",
+      "price": 44.99,
+      "stars": 4.3,
+      "orders": 95
+    },
+    {
+      "color": "Black",
+      "image": "women/black_sneakers.jpg",
+      "name": "Women's Black Sneakers",
+      "description": "Stylish and comfortable black sneakers for women.",
+      "price": 59.99,
+      "stars": 4.6,
+      "orders": 130
+    },
+    {
+      "color": "White",
+      "image": "women/white_sandals.jpg",
+      "name": "Women's White Sandals",
+      "description": "Classic white sandals for women.",
+      "price": 34.95,
+      "stars": 4.2,
+      "orders": 70
+    },
+    {
+      "color": "Red",
+      "image": "women/red_high_heels.jpg",
+      "name": "Women's Red High Heels",
+      "description": "Red high heels for a bold and confident look.",
+      "price": 54.99,
+      "stars": 4.4,
+      "orders": 110
+    },
+    {
+      "color": "Purple",
+      "image": "women/purple_sneakers.jpg",
+      "name": "Women's Purple Sneakers",
+      "description": "Purple sneakers for a unique style.",
+      "price": 39.99,
+      "stars": 4.3,
+      "orders": 85
+    },
+    {
+      "color": "Green",
+      "image": "women/green_sandals.jpg",
+      "name": "Women's Green Sandals",
+      "description": "Green sandals for a trendy and comfortable look.",
+      "price": 29.95,
+      "stars": 4.1,
+      "orders": 60
+    },
+    {
+      "color": "Blue",
+      "image": "women/blue_sandals.jpg",
+      "name": "Women's Blue Sandals",
+      "description": "Comfortable and stylish blue sandals for women.",
+      "price": 34.95,
+      "stars": 4.2,
+      "orders": 75
+    },
+    {
+      "color": "Black",
+      "image": "women/black_sneakers.jpg",
+      "name": "Women's Black Sneakers",
+      "description": "Versatile and fashionable black sneakers for women.",
+      "price": 49.95,
+      "stars": 4.4,
+      "orders": 100
+    },
+    {
       "color": "Black",
       "image": "women/black_shoe.jpg",
       "name": "Elegant Black Heels",
       "description": "Classic black heels for any formal occasion.",
       "price": 49.99,
-      "stars": 4.5
+      "stars": 4.5,
+      "orders": 80
     },
     {
       "color": "Red",
@@ -14,98 +141,16 @@
       "name": "Sporty Red Sneakers",
       "description": "Comfortable and stylish sneakers for active days.",
       "price": 34.95,
-      "stars": 4.2
+      "stars": 4.2,
+      "orders": 120
     },
-    {
-      "color": "Red",
-      "image": "women/red_sneakers.jpg",
-      "name": "Sporty Red Sneakers",
-      "description": "Comfortable and stylish sneakers for active days.",
-      "price": 34.95,
-      "stars": 4.2
-    },
-
-    {
-      "color": "Red",
-      "image": "women/red_sneakers.jpg",
-      "name": "Sporty Red Sneakers",
-      "description": "Comfortable and stylish sneakers for active days.",
-      "price": 34.95,
-      "stars": 4.2
-    },
-    {
-      "color": "Red",
-      "image": "women/red_sneakers.jpg",
-      "name": "Sporty Red Sneakers",
-      "description": "Comfortable and stylish sneakers for active days.",
-      "price": 34.95,
-      "stars": 4.2
-    },
-    {
-      "color": "Red",
-      "image": "women/red_sneakers.jpg",
-      "name": "Sporty Red Sneakers",
-      "description": "Comfortable and stylish sneakers for active days.",
-      "price": 34.95,
-      "stars": 4.2
-    },
-    {
-      "color": "Red",
-      "image": "women/red_sneakers.jpg",
-      "name": "Sporty Red Sneakers",
-      "description": "Comfortable and stylish sneakers for active days.",
-      "price": 34.95,
-      "stars": 4.2
-    },
-    {
-      "color": "Red",
-      "image": "women/red_sneakers.jpg",
-      "name": "Sporty Red Sneakers",
-      "description": "Comfortable and stylish sneakers for active days.",
-      "price": 34.95,
-      "stars": 4.2
-    },
-    {
-      "color": "Red",
-      "image": "women/red_sneakers.jpg",
-      "name": "Sporty Red Sneakers",
-      "description": "Comfortable and stylish sneakers for active days.",
-      "price": 34.95,
-      "stars": 4.2
-    },
-    {
-      "color": "Red",
-      "image": "women/red_sneakers.jpg",
-      "name": "Sporty Red Sneakers",
-      "description": "Comfortable and stylish sneakers for active days.",
-      "price": 34.95,
-      "stars": 4.2
-    },
-    {
-      "color": "Red",
-      "image": "women/red_sneakers.jpg",
-      "name": "Sporty Red Sneakers",
-      "description": "Comfortable and stylish sneakers for active days.",
-      "price": 34.95,
-      "stars": 4.2
-    },
-    {
-      "color": "Red",
-      "image": "women/red_sneakers.jpg",
-      "name": "Sporty Red Sneakers",
-      "description": "Comfortable and stylish sneakers for active days.",
-      "price": 34.95,
-      "stars": 4.2
-    }
-  ],
-  "men": [
     {
       "color": "Brown",
-      "image": "men/brown_loafers.jpg",
-      "name": "Classic Brown Loafers",
+      "image": "https://m.media-amazon.com/images/I/71QYXGuBLuL._AC_UY575_.jpg",
       "description": "Timeless brown loafers for a sophisticated look.",
       "price": 59.99,
-      "stars": 4.7
+      "stars": 4.7,
+      "orders": 90
     },
     {
       "color": "Blue",
@@ -113,7 +158,118 @@
       "name": "Performance Blue Running Shoes",
       "description": "High-quality running shoes for athletes.",
       "price": 79.95,
+      "stars": 4.9,
+      "orders": 180
+    },
+    {
+      "color": "Pink",
+      "image": "children/pink_sandals.jpg",
+      "name": "Adorable Pink Sandals",
+      "description": "Cute pink sandals for little girls.",
+      "price": 24.99,
+      "stars": 4.3,
+      "orders": 50
+    },
+    {
+      "color": "Green",
+      "image": "children/green_sneakers.jpg",
+      "name": "Playful Green Sneakers",
+      "description": "Stylish and fun sneakers for active kids.",
+      "price": 29.95,
+      "stars": 4.1,
+      "orders": 70
+    }
+  ],
+  "men": [
+    {
+      "color": "Brown",
+      "image": "https://m.media-amazon.com/images/I/51HvrRuhbBL._AC_UY575_.jpg",
+      "name": "Classic Brown Loafers",
+      "description": "Timeless brown loafers for a sophisticated look.",
+      "price": 59.99,
+      "stars": 4.7
+    },
+    {
+      "color": "Blue",
+      "brand": "NewBalance",
+      "image": "https://m.media-amazon.com/images/I/61VmKLBOxBL._AC_UL400_.jpg",
+      "name": "Performance Blue Running Shoes",
+      "description": "High-quality running shoes for athletes.",
+      "price": 79.95,
       "stars": 4.9
+    },
+
+    {
+      "color": "Brown",
+      "image": "https://m.media-amazon.com/images/I/81l8CWZ-S6L._AC_UX575_.jpg",
+      "name": "Classic Brown Loafers",
+      "description": "Timeless brown loafers for a sophisticated look.",
+      "price": 59.99,
+      "stars": 4.7,
+      "orders": 90
+    },
+    {
+      "color": "Blue",
+      "image": "https://m.media-amazon.com/images/I/613Cuwj--+L._AC_UL400_.jpg",
+      "name": "Performance Blue Running Shoes",
+      "description": "High-quality running shoes for athletes.",
+      "price": 79.95,
+      "stars": 4.9,
+      "orders": 180
+    },
+    {
+      "color": "Red",
+      "image": "https://m.media-amazon.com/images/I/81adVQT69BL._AC_UY575_.jpg",
+      "name": "Sporty Red Sneakers",
+      "description": "Comfortable and stylish sneakers for active days.",
+      "price": 34.95,
+      "stars": 4.2,
+      "orders": 120
+    },
+    {
+      "color": "Black",
+      "image": "https://m.media-amazon.com/images/I/616E0ZXwdOL._AC_UX575_.jpg",
+      "name": "Formal Black Shoes",
+      "description": "Elegant black shoes for formal occasions.",
+      "price": 89.99,
+      "stars": 4.6,
+      "orders": 100
+    },
+    {
+      "color": "White",
+      "image": "https://m.media-amazon.com/images/I/51RZOAVJDZL._AC_UL400_.jpg",
+      "name": "Casual White Shoes",
+      "description": "Stylish and comfortable white shoes for casual wear.",
+      "price": 39.99,
+      "stars": 4.3,
+      "orders": 70
+    },
+    {
+      "color": "Gray",
+      "image": "https://m.media-amazon.com/images/I/71FB0DMhjqL._AC_UX575_.jpg",
+      "name": "Lightweight Gray Running Shoes",
+      "description": "Lightweight and breathable running shoes.",
+      "price": 69.95,
+      "stars": 4.8,
+      "orders": 140
+    },
+    {
+      "color": "Brown",
+      "image": "https://m.media-amazon.com/images/I/812FEAXL7-L._AC_UL400_.jpg",
+      "name": "Classic Brown Dress Shoes",
+      "description": "Timeless brown dress shoes for formal occasions.",
+      "price": 79.99,
+      "stars": 4.5,
+      "orders": 110
+    },
+    {
+      "color": "Black",
+      "image": "https://m.media-amazon.com/images/I/61i1x-it9-L._AC_UL400_.jpg",
+      "name": "Durable Black Running Shoes",
+      "description": "Durable and supportive black running shoes.",
+      "price": 74.95,
+      "stars": 4.4,
+      "orders": 90
     }
   ],
   "children": [
@@ -132,6 +288,330 @@
       "description": "Stylish and fun sneakers for active kids.",
       "price": 29.95,
       "stars": 4.1
+    },
+    {
+      "color": "Red",
+      "image": "children/red_sneakers.jpg",
+      "name": "Kids' Red Sneakers",
+      "description": "Sporty and stylish red sneakers for kids.",
+      "price": 26.99,
+      "stars": 4.4,
+      "orders": 70
+    },
+    {
+      "color": "Blue",
+      "image": "children/blue_running_shoes.jpg",
+      "name": "Kids' Blue Running Shoes",
+      "description": "Comfortable and supportive running shoes for kids.",
+      "price": 34.99,
+      "stars": 4.5,
+      "orders": 110
+    },
+    {
+      "color": "Green",
+      "image": "children/green_sneakers.jpg",
+      "name": "Kids' Green Sneakers",
+      "description": "Green sneakers for active and playful kids.",
+      "price": 26.99,
+      "stars": 4.5,
+      "orders": 95
+    },
+    {
+      "color": "White",
+      "image": "children/white_sandals.jpg",
+      "name": "Kids' White Sandals",
+      "description": "Classic white sandals for kids.",
+      "price": 19.95,
+      "stars": 4.3,
+      "orders": 80
+    },
+    {
+      "color": "Black",
+      "image": "children/black_sneakers.jpg",
+      "name": "Kids' Black Sneakers",
+      "description": "Stylish and comfortable black sneakers for kids.",
+      "price": 29.99,
+      "stars": 4.6,
+      "orders": 120
+    },
+    {
+      "color": "Purple",
+      "image": "children/purple_sandals.jpg",
+      "name": "Kids' Purple Sandals",
+      "description": "Playful and comfortable purple sandals for kids.",
+      "price": 22.95,
+      "stars": 4.0,
+      "orders": 50
+    },
+    {
+      "color": "Blue",
+      "image": "children/blue_sneakers.jpg",
+      "name": "Kids' Blue Sneakers",
+      "description": "Durable and supportive blue sneakers for kids.",
+      "price": 31.99,
+      "stars": 4.6,
+      "orders": 100
+    },
+    {
+      "color": "White",
+      "image": "children/white_running_shoes.jpg",
+      "name": "Kids' White Running Shoes",
+      "description": "White running shoes for active kids.",
+      "price": 28.99,
+      "stars": 4.4,
+      "orders": 85
+    },
+    {
+      "color": "Red",
+      "image": "children/red_sandals.jpg",
+      "name": "Red Comfy Sandals",
+      "description": "Comfy red sandals for kids.",
+      "price": 19.95,
+      "stars": 4.1,
+      "orders": 50
+    },
+    {
+      "color": "Black",
+      "image": "children/black_sandals.jpg",
+      "name": "Kids' Black Sandals",
+      "description": "Stylish and comfortable black sandals for kids.",
+      "price": 24.95,
+      "stars": 4.2,
+      "orders": 60
+    },
+    {
+      "color": "Green",
+      "image": "children/green_sandals.jpg",
+      "name": "Green Adventure Sandals",
+      "description": "Adventure-ready green sandals for kids.",
+      "price": 26.99,
+      "stars": 4.5,
+      "orders": 95
+    },
+    {
+      "color": "Blue",
+      "image": "children/blue_sandals.jpg",
+      "name": "Kids' Blue Sandals",
+      "description": "Comfortable and stylish blue sandals for kids.",
+      "price": 23.95,
+      "stars": 4.2,
+      "orders": 65
+    },
+    {
+      "color": "Red",
+      "image": "children/red_running_shoes.jpg",
+      "name": "Kids' Red Running Shoes",
+      "description": "Red running shoes for active kids.",
+      "price": 28.99,
+      "stars": 4.4,
+      "orders": 105
+    },
+    {
+      "color": "Purple",
+      "image": "children/purple_sneakers.jpg",
+      "name": "Kids' Purple Sneakers",
+      "description": "Purple sneakers for stylish kids.",
+      "price": 25.99,
+      "stars": 4.3,
+      "orders": 85
+    },
+    {
+      "color": "Black",
+      "image": "children/black_sandals.jpg",
+      "name": "Kids' Black Sandals",
+      "description": "Stylish and comfortable black sandals for kids.",
+      "price": 21.95,
+      "stars": 4.0,
+      "orders": 55
+    },
+    {
+      "color": "Blue",
+      "image": "children/blue_sandals.jpg",
+      "name": "Kids' Blue Sandals",
+      "description": "Comfortable and stylish blue sandals for kids.",
+      "price": 23.95,
+      "stars": 4.2,
+      "orders": 75
+    },
+    {
+      "color": "Green",
+      "image": "children/green_sneakers.jpg",
+      "name": "Kids' Green Sneakers",
+      "description": "Green sneakers for active and playful kids.",
+      "price": 26.99,
+      "stars": 4.5,
+      "orders": 95
+    },
+    {
+      "color": "White",
+      "image": "children/white_sneakers.jpg",
+      "name": "Kids' White Sneakers",
+      "description": "Classic white sneakers for kids.",
+      "price": 24.99,
+      "stars": 4.3,
+      "orders": 80
+    }
+  ],
+  "arrivals": [
+    {
+      "category": "women",
+      "color": "Blue",
+      "image": "women/blue_high_heels.jpg",
+      "name": "Elegant Blue High Heels",
+      "description": "Stylish blue high heels for a glamorous look.",
+      "price": 54.99,
+      "stars": 4.5,
+      "orders": 95
+    },
+    {
+      "category": "women",
+      "color": "Black",
+      "image": "women/black_booties.jpg",
+      "name": "Chic Black Booties",
+      "description": "Trendy black booties for a chic appearance.",
+      "price": 49.95,
+      "stars": 4.3,
+      "orders": 80
+    },
+    {
+      "category": "men",
+      "color": "Brown",
+      "image": "men/brown_loafers.jpg",
+      "name": "Classic Brown Loafers",
+      "description": "Timeless brown loafers for a sophisticated look.",
+      "price": 59.99,
+      "stars": 4.7,
+      "orders": 120
+    },
+    {
+      "category": "children",
+      "color": "Pink",
+      "image": "children/pink_sandals.jpg",
+      "name": "Adorable Pink Sandals",
+      "description": "Cute pink sandals for little girls.",
+      "price": 24.99,
+      "stars": 4.3,
+      "orders": 75
+    },
+    {
+      "category": "women",
+      "color": "White",
+      "image": "women/white_wedges.jpg",
+      "name": "Stylish White Wedges",
+      "description": "Comfortable and stylish white wedges for women.",
+      "price": 39.95,
+      "stars": 4.2,
+      "orders": 70
+    },
+    {
+      "category": "women",
+      "color": "Red",
+      "image": "women/red_loafers.jpg",
+      "name": "Classic Red Loafers",
+      "description": "Timeless red loafers for a sophisticated look.",
+      "price": 44.99,
+      "stars": 4.4,
+      "orders": 90
+    },
+    {
+      "category": "men",
+      "color": "Blue",
+      "image": "men/blue_running_shoes.jpg",
+      "name": "Performance Blue Running Shoes",
+      "description": "High-quality running shoes for athletes.",
+      "price": 79.95,
+      "stars": 4.9,
+      "orders": 180
+    },
+    {
+      "category": "children",
+      "color": "Green",
+      "image": "children/green_sneakers.jpg",
+      "name": "Playful Green Sneakers",
+      "description": "Stylish and fun sneakers for active kids.",
+      "price": 29.95,
+      "stars": 4.1,
+      "orders": 50
+    },
+    {
+      "category": "women",
+      "color": "Black",
+      "image": "women/black_sandals.jpg",
+      "name": "Women's Black Sandals",
+      "description": "Classic black sandals for a casual yet elegant look.",
+      "price": 34.99,
+      "stars": 4.1,
+      "orders": 60
+    },
+    {
+      "category": "women",
+      "color": "Green",
+      "image": "women/green_booties.jpg",
+      "name": "Women's Green Booties",
+      "description": "Green booties for a trendy and fashionable style.",
+      "price": 54.95,
+      "stars": 4.6,
+      "orders": 110
+    },
+    {
+      "category": "men",
+      "color": "Red",
+      "image": "men/red_sneakers.jpg",
+      "name": "Sporty Red Sneakers",
+      "description": "Comfortable and stylish sneakers for active days.",
+      "price": 34.95,
+      "stars": 4.2,
+      "orders": 70
+    },
+    {
+      "category": "women",
+      "color": "Blue",
+      "image": "women/blue_sneakers.jpg",
+      "name": "Women's Blue Sneakers",
+      "description": "Comfortable and stylish blue sneakers for women.",
+      "price": 49.95,
+      "stars": 4.4,
+      "orders": 100
+    },
+    {
+      "category": "men",
+      "color": "Black",
+      "image": "men/black_loafers.jpg",
+      "name": "Classic Black Loafers",
+      "description": "Timeless black loafers for a professional style.",
+      "price": 59.99,
+      "stars": 4.6,
+      "orders": 110
+    },
+    {
+      "category": "children",
+      "color": "Green",
+      "image": "children/green_sneakers.jpg",
+      "name": "Playful Green Sneakers",
+      "description": "Stylish and fun sneakers for active kids.",
+      "price": 29.95,
+      "stars": 4.1,
+      "orders": 50
+    },
+    {
+      "category": "women",
+      "color": "Black",
+      "image": "women/black_wedges.jpg",
+      "name": "Women's Black Wedges",
+      "description": "Black wedges for a versatile and flattering look.",
+      "price": 39.99,
+      "stars": 4.3,
+      "orders": 85
+    },
+    {
+      "category": "women",
+      "color": "Red",
+      "image": "women/red_booties.jpg",
+      "name": "Women's Red Booties",
+      "description": "Red booties for a bold and stylish appearance.",
+      "price": 54.95,
+      "stars": 4.5,
+      "orders": 105
     }
   ]
 }

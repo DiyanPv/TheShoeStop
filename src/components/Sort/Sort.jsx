@@ -11,7 +11,7 @@ const Sort = () => {
     const { target } = e;
     if (!target) return;
 
-    dispatch(setSort(target))
+    dispatch(setSort(target));
     setSelectedCategory(target);
   };
 
@@ -28,9 +28,10 @@ const Sort = () => {
           label="Sort"
           onChange={handleChange}
         >
-          <MenuItem value={"relevance"}>Relevance</MenuItem>
-          <MenuItem value={"orders"}>Orders</MenuItem>
           <MenuItem value={"ranking"}>Ranking</MenuItem>
+          <MenuItem value={"orders"}>Orders</MenuItem>
+          <MenuItem value={"priceAscending"}>Price (Low to High)</MenuItem>
+          <MenuItem value={"priceDescending"}>Price (High to Low)</MenuItem>
         </Select>
       </FormControl>
     </div>

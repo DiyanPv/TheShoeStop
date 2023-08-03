@@ -41,3 +41,26 @@
 .isHoverable {
   margin: 0;
 }
+
+.bg-gradient-green {
+  background: rgb(234, 238, 242);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(234, 238, 242, 1) 0%,
+    rgba(201, 226, 232, 1) 40%,
+    rgba(211, 241, 232, 1) 97%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(234, 238, 242, 1) 0%,
+    rgba(201, 226, 232, 1) 40%,
+    rgba(211, 241, 232, 1) 97%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(234, 238, 242, 1) 0%,
+    rgba(201, 226, 232, 1) 40%,
+    rgba(211, 241, 232, 1) 97%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eaeef2",endColorstr="#d3f1e8",GradientType=1);
+}
