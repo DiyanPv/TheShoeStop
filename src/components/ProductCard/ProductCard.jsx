@@ -8,6 +8,7 @@
 
 import React from "react";
 import "./ProductCard.css";
+import { AiOutlineStar } from "react-icons/ai";
 const ProductCard = ({ url, name, details, stars, price }) => {
   return (
     <div className="flex flex-col product-item-card relative xs:min-w-[100%] sm:min-w-[45%] sm:max-w-[45%] sm:min-h-[240px] md:min-w-[45%] md:max-w-[45%] md:min-h-[380px] lg:min-w-[20%] lg:min-h-[360px] lg:max-w-[23%] box-shadow-card">
@@ -28,7 +29,9 @@ const ProductCard = ({ url, name, details, stars, price }) => {
             <h2 className="font-medium">${price}</h2>
           </div>
 
-          <div className="flex items-center">{stars}/5</div>
+          <div className="flex items-center">
+            {stars}/5 <AiOutlineStar fontSize={16} />
+          </div>
         </div>
       </div>
     </div>

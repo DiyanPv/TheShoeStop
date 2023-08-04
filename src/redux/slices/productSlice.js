@@ -12,9 +12,41 @@ const counterSlice = createSlice({
   name: "product",
   initialState,
   reducers: {
-    setFilter(state, action) {
+    setColorFilter(state, action) {
       state.selectedFilter = action.payload;
       console.log(`filter=>`, action.payload);
+      state.products = [...state.products].filter(
+        (item) => item.color === action.payload
+      );
+    },
+    setPriceFilter(state, action) {
+      const number = Number(action.payload);
+      console.log(number);
+      switch (action.payload) {
+        case `30`:
+          state.products = [...shoes[state.selectedCategory]].filter(
+            (el) => el.price <= number
+          );
+          break;
+        case `50`:
+          state.products = [...shoes[state.selectedCategory]].filter(
+            (el) => el.price <= number
+          );
+          break;
+        case `99`:
+          state.products = [...shoes[state.selectedCategory]].filter(
+            (el) => el.price <= number
+          );
+          break;
+        case `100`:
+          state.products = [...shoes[state.selectedCategory]].filter(
+            (el) => el.price >= number
+          );
+          break;
+
+        default:
+          return;
+      }
     },
     setSort(state, action) {
       state.selectedSort = action.payload;
@@ -24,7 +56,7 @@ const counterSlice = createSlice({
         case "ranking":
           if (state.selectedCategory) {
             console.log(shoes[state.selectedCategory]);
-            const sortedProducts = [...shoes[state.selectedCategory]].sort(
+            const sortedProducts = [...state.products].sort(
               (a, b) => parseFloat(b.stars) - parseFloat(a.stars)
             );
             state.products = sortedProducts;
@@ -32,21 +64,21 @@ const counterSlice = createSlice({
           break;
         case "orders":
           if (state.selectedCategory) {
-            state.products = [...shoes[state.selectedCategory]].sort(
+            state.products = [...state.products].sort(
               (a, b) => b.orders - a.orders
             );
           }
           break;
         case "priceAscending":
           if (state.selectedCategory) {
-            state.products = [...shoes[state.selectedCategory]].sort(
+            state.products = [...state.products].sort(
               (a, b) => a.price - b.price
             );
           }
           break;
         case "priceDescending":
           if (state.selectedCategory) {
-            state.products = [...shoes[state.selectedCategory]].sort(
+            state.products = [...state.products].sort(
               (a, b) => b.price - a.price
             );
           }
@@ -64,6 +96,7 @@ const counterSlice = createSlice({
   },
 });
 
-export const { setFilter, setSort, setCategory } = counterSlice.actions;
+export const { setColorFilter, setSort, setCategory, setPriceFilter } =
+  counterSlice.actions;
 
 export default counterSlice.reducer;

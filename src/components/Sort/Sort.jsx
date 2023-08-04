@@ -2,7 +2,6 @@ import React from "react";
 import { setSort } from "../../redux/slices/productSlice";
 import { Select, MenuItem, InputLabel, FormControl } from "@mui/material";
 import { useDispatch } from "react-redux";
-
 const Sort = () => {
   const dispatch = useDispatch();
   const [selectedCategory, setSelectedCategory] = React.useState(null);
