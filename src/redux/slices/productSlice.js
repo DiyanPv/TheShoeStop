@@ -12,16 +12,23 @@ const counterSlice = createSlice({
   name: "product",
   initialState,
   reducers: {
+    resetItems(state, action) {
+      state.products = action.payload;
+    },
     setColorFilter(state, action) {
       state.selectedFilter = action.payload;
-      console.log(`filter=>`, action.payload);
+      if (!state.products) {
+        return;
+      }
       state.products = [...state.products].filter(
         (item) => item.color === action.payload
       );
     },
     setPriceFilter(state, action) {
       const number = Number(action.payload);
-      console.log(number);
+      if (!state.selectedCategory) {
+        return;
+      }
       switch (action.payload) {
         case `30`:
           state.products = [...shoes[state.selectedCategory]].filter(
@@ -55,7 +62,6 @@ const counterSlice = createSlice({
       switch (sort) {
         case "ranking":
           if (state.selectedCategory) {
-            console.log(shoes[state.selectedCategory]);
             const sortedProducts = [...state.products].sort(
               (a, b) => parseFloat(b.stars) - parseFloat(a.stars)
             );
@@ -96,7 +102,12 @@ const counterSlice = createSlice({
   },
 });
 
-export const { setColorFilter, setSort, setCategory, setPriceFilter } =
-  counterSlice.actions;
+export const {
+  setColorFilter,
+  setSort,
+  setCategory,
+  setPriceFilter,
+  resetItems,
+} = counterSlice.actions;
 
 export default counterSlice.reducer;

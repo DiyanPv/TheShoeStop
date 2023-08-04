@@ -15,13 +15,12 @@ export const MobileFilter = ({ setisFilterModalOpen }) => {
     setisFilterModalOpen(false);
     dispatch(setPriceFilter(e.target.getAttribute("value")));
   };
- 
 
   const handleClose = () => {
     setisFilterModalOpen(false);
   };
   return (
-    <nav className="glassmorphism h-screen w-[70%] mr-2 text-sm text-white fixed">
+    <nav className="glassmorphism h-full w-[50%] mr-2 text-xl text-white fixed">
       <p
         className="cursor-pointer ml-2 mt-2 hover:text-white"
         onClick={handleClose}
@@ -51,7 +50,7 @@ export const MobileFilter = ({ setisFilterModalOpen }) => {
           </li>
         </ul>
       </ul>
-      <ul className="text-sm font-light gap-4 flex flex-col">
+      <ul className="text-xl font-light gap-4 flex flex-col">
         <p className="font-bold">Price</p>
         <ul>
           <li className="cursor-pointer" value={30} onClick={handlePriceFilter}>

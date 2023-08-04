@@ -8,19 +8,28 @@
 
 import React from "react";
 import "./ProductCard.css";
+import { LiaCartPlusSolid } from "react-icons/lia";
 import { AiOutlineStar } from "react-icons/ai";
 const ProductCard = ({ url, name, details, stars, price }) => {
+  const addItemToCart = () => {};
   return (
     <div className="flex flex-col product-item-card relative xs:min-w-[100%] sm:min-w-[45%] sm:max-w-[45%] sm:min-h-[240px] md:min-w-[45%] md:max-w-[45%] md:min-h-[380px] lg:min-w-[20%] lg:min-h-[360px] lg:max-w-[23%] box-shadow-card">
       <div
-        className="w-full h-full"
+        className="w-full h-full flex justify-end"
         style={{
           backgroundImage: `url(${url})`,
           backgroundSize: "100%",
           backgroundPosition: "center",
           backgroundRepeat: `no-repeat`,
         }}
-      ></div>
+      >
+        <div
+          className="mr-6 mt-3 rounded-full border-3 absolute p p-1 cursor-pointer bg-gray-200 border-black"
+          onClick={addItemToCart}
+        >
+          <LiaCartPlusSolid fontSize={24} />
+        </div>
+      </div>
       <div className="flex-col text-xs py-2 px-2 w-full ">
         <div className="flex justify-between">
           <div>

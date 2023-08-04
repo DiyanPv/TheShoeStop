@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import "./Header.css";
-import { setCategory } from "../../../redux/slices/productSlice";
+import { setCategory, resetItems } from "../../../redux/slices/productSlice";
 import { useDispatch } from "react-redux";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import logo from "../../../assets/shoestop-logo.png";
@@ -10,6 +10,10 @@ import { Modal, Backdrop, Fade, Button } from "@mui/material"; // Import the Mat
 const Header = () => {
   const dispatch = useDispatch();
   const [isCartOpen, setIsCartOpen] = useState(false);
+
+  const resetproducts = () => {
+    dispatch(resetItems([]));
+  };
 
   const initialSorting = (e) => {
     const sort = e.target.innerText;
@@ -34,13 +38,12 @@ const Header = () => {
           <AiOutlineSearch className="lg:text-2xl" />
         </div>
         <div className="container-logo isHoverable lg:text-3xl">
-          <a href="/">
-            <img
-              alt="no-img"
-              src={logo}
-              className="logo-image sm:h-[100px] md:h-[150px] lg:h-[170px]"
-            />
-          </a>
+          <img
+            onClick={resetproducts}
+            alt="no-img"
+            src={logo}
+            className="logo-image sm:h-[100px] md:h-[150px] lg:h-[170px]"
+          />
         </div>
         <div className="cart-main isHoverable" onClick={toggleCart}>
           <AiOutlineShoppingCart className="lg:text-3xl" />

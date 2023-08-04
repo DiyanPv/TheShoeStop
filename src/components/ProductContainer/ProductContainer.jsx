@@ -45,7 +45,7 @@ const ProductContainer = () => {
           price={el.price}
         />
       ))}
-      {visibleAssets.length < assets.length && visibleAssets.length > 1 && (
+      {visibleAssets.length < assets.length && (
         <div className="w-full py-2 flex justify-center align-center">
           <Button
             variant="contained"
@@ -56,6 +56,10 @@ const ProductContainer = () => {
             Load More
           </Button>
         </div>
+      )}
+
+      {visibleAssets.length <= 0 && (
+        <div> Please choose a category above. </div>
       )}
     </div>
   );
