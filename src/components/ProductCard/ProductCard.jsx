@@ -29,7 +29,7 @@ const ProductCard = ({ url, name, details, stars, price, setIsItemAdded }) => {
         }}
       >
         <div
-          className="mr-6 mt-3 rounded-full border-3 absolute p p-1 cursor-pointer bg-gray-200 border-black"
+          className="mr-6 mt-3 rounded-full border-3 absolute p p-1 cursor-pointer bg-gray-200 border-black hover:bg-white"
           onClick={addItemToCart}
         >
           <LiaCartPlusSolid fontSize={24} />
