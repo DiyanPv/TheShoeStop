@@ -10,8 +10,13 @@ import React from "react";
 import "./ProductCard.css";
 import { LiaCartPlusSolid } from "react-icons/lia";
 import { AiOutlineStar } from "react-icons/ai";
-const ProductCard = ({ url, name, details, stars, price }) => {
-  const addItemToCart = () => {};
+const ProductCard = ({ url, name, details, stars, price, setIsItemAdded }) => {
+  const addItemToCart = () => {
+    setIsItemAdded(true);
+    setTimeout(() => {
+      setIsItemAdded(false);
+    }, 1500);
+  };
   return (
     <div className="flex flex-col product-item-card relative xs:min-w-[100%] sm:min-w-[45%] sm:max-w-[45%] sm:min-h-[240px] md:min-w-[45%] md:max-w-[45%] md:min-h-[380px] lg:min-w-[20%] lg:min-h-[360px] lg:max-w-[23%] box-shadow-card">
       <div

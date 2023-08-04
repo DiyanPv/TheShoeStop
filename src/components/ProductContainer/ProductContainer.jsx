@@ -4,7 +4,7 @@ import ProductCard from "../ProductCard/ProductCard";
 import { useSelector } from "react-redux";
 import Button from "@mui/material/Button";
 import { useEffect } from "react";
-const ProductContainer = () => {
+const ProductContainer = ({setIsItemAdded}) => {
   const assets = useSelector((state) => state.product.products);
   //getting the products array based on currently selected category
   const itemsPerPage = 8;
@@ -37,6 +37,7 @@ const ProductContainer = () => {
     <div className="flex flex-wrap gap-6 xs:justify-center justify-between w-[100%] xl:border-l-2 xl:pl-6">
       {visibleAssets.map((el, index) => (
         <ProductCard
+        setIsItemAdded={setIsItemAdded}
           key={el.name + index}
           url={el.image}
           name={el.name}

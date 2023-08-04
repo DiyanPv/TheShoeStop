@@ -6,7 +6,7 @@ import Filter from "../Filter/Filter";
 import Counter from "../Counter/Counter";
 import { useSelector } from "react-redux";
 import { useState } from "react";
-const MainGrid = () => {
+const MainGrid = ({setIsItemAdded}) => {
   const [isFilterModalOpen, setisFilterModalOpen] = useState(false);
   const category = useSelector((state) => state.product.selectedCategory);
   const loadedItems = useSelector((state) => state.product.products.length);
@@ -28,7 +28,7 @@ const MainGrid = () => {
           isFilterModalOpen={isFilterModalOpen}
           setisFilterModalOpen={setisFilterModalOpen}
         />
-        <ProductContainer />
+        <ProductContainer setIsItemAdded={setIsItemAdded}/>
       </div>
     </div>
   );
