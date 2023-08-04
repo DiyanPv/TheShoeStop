@@ -5,3 +5,15 @@
 body {
   padding: 0;
 }
+
+.glassmorphism {
+  background: rgb(39, 51, 89, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 40px #0003;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  z-index: 100000;
+  top: 1px;
+  /* the top is added so I can make sure it always appears on top, this class is only used for the filter */
+}
