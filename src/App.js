@@ -17,7 +17,7 @@ function App() {
 
         <MainGrid setIsItemAdded={setIsItemAdded} />
         {isItemAdded && (
-          <Alert severity="success" className="relative z-20">
+          <Alert severity="success" className="fixed z-20 w-full">
             Item added to cart
           </Alert>
         )}
