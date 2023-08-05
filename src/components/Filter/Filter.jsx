@@ -5,7 +5,6 @@ import {
   setPriceFilter,
 } from "../../redux/slices/productSlice";
 import { MobileFilter } from "./FilterMobile";
-
 const Filter = ({ isFilterModalOpen, setisFilterModalOpen }) => {
   const dispatch = useDispatch();
   const handleColorFilter = (e) => {
@@ -18,13 +17,13 @@ const Filter = ({ isFilterModalOpen, setisFilterModalOpen }) => {
   return (
     <div>
       {isFilterModalOpen ? (
-        <MobileFilter 
-        setisFilterModalOpen={setisFilterModalOpen}
+        <MobileFilter
+          setisFilterModalOpen={setisFilterModalOpen}
           handleColorFilter={handleColorFilter}
           handlePriceFilter={handlePriceFilter}
         />
       ) : (
-        <aside className="w-[14%] flex items-start flex-col h-full justify-start sm:hidden md:hidden lg:hidden xl:block">
+        <aside className="w-[14%] flex items-start flex-col h-full justify-start sm:hidden md:hidden lg:hidden xl:block pr-6">
           <ul className="text-sm font-light mb-8">
             <p className="font-bold"> Color</p>
             <li className="cursor-pointer" onClick={handleColorFilter}>
@@ -46,14 +45,14 @@ const Filter = ({ isFilterModalOpen, setisFilterModalOpen }) => {
               Purple
             </li>
           </ul>
-          <ul className="text-sm font-light">
+          <ul className="text-sm font-light w-max">
             <p className="font-bold">Price</p>
             <li
               className="cursor-pointer"
               value={30}
               onClick={handlePriceFilter}
             >
-              under $30
+              under 30
             </li>
             <li
               className="cursor-pointer"

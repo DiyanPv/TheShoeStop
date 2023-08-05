@@ -72,14 +72,14 @@ const Cart = ({ handleClose }) => {
           Cancel
         </button>
         {hasItems && (
-       <button
-       className={classes[`button--alt`]}
-       onClick={() => {
-         dispatch(clearCart());
-       }}
-     >
-       Order
-     </button>
+          <button
+            className={classes[`button--alt`]}
+            onClick={() => {
+              dispatch(clearCart());
+            }}
+          >
+            Order
+          </button>
         )}
       </div>
     </Modal>
