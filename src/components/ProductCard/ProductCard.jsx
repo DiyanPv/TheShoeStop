@@ -10,8 +10,16 @@ import React from "react";
 import "./ProductCard.css";
 import { LiaCartPlusSolid } from "react-icons/lia";
 import { AiOutlineStar } from "react-icons/ai";
+import { useDispatch } from "react-redux";
+import { addItemToCart } from "../../redux/slices/cartSlice";
 const ProductCard = ({ url, name, details, stars, price, setIsItemAdded }) => {
-  const addItemToCart = () => {
+  const dispatch = useDispatch();
+  const handleAddToCart = () => {
+    addItemToCartAlert();
+    dispatch(addItemToCart({ name, price }));
+  };
+
+  const addItemToCartAlert = () => {
     setIsItemAdded(true);
     setTimeout(() => {
       setIsItemAdded(false);
@@ -30,7 +38,7 @@ const ProductCard = ({ url, name, details, stars, price, setIsItemAdded }) => {
       >
         <div
           className="mr-6 mt-3 rounded-full border-3 absolute p p-1 cursor-pointer bg-gray-200 border-black hover:bg-white"
-          onClick={addItemToCart}
+          onClick={handleAddToCart}
         >
           <LiaCartPlusSolid fontSize={24} />
         </div>

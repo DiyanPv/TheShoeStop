@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import { AiOutlineSearch } from "react-icons/ai";
 import "./Header.css";
 import { setCategory, resetItems } from "../../../redux/slices/productSlice";
 import { useDispatch } from "react-redux";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import { GiConverseShoe } from "react-icons/gi";
 import logo from "../../../assets/shoestop-logo.png";
-import { Modal, Backdrop, Fade, Button } from "@mui/material"; // Import the Material-UI components for the modal
-
+import Cart from "../../Cart/Cart";
 const Header = () => {
   const dispatch = useDispatch();
   const [isCartOpen, setIsCartOpen] = useState(false);
@@ -35,7 +34,7 @@ const Header = () => {
     <div className="fixed w-full z-10 bg-white">
       <div className="main-header">
         <div className="isHoverable">
-          <AiOutlineSearch className="lg:text-2xl" />
+          <GiConverseShoe className="lg:text-2xl" />
         </div>
         <div className="container-logo isHoverable lg:text-3xl">
           <img
@@ -63,34 +62,7 @@ const Header = () => {
           );
         })}
       </div>
-
-      {/* Material-UI Modal */}
-      <Modal
-        className="flex items-center justify-center"
-        open={isCartOpen}
-        onClose={handleClose}
-        closeAfterTransition
-        BackdropComponent={Backdrop}
-        BackdropProps={{
-          timeout: 500,
-        }}
-      >
-        <Fade in={isCartOpen}>
-          {/* The content of the modal */}
-          <div className="modal-content sm:w-[70%] md:w-[80%] lg:w-[50%] bg-white py-2 px-4 rounded-md flex items-center justify-center">
-            <h2>Shopping Cart</h2>
-            <p>Content of your shopping cart goes here.</p>
-            <Button
-              onClick={handleClose}
-              variant="contained"
-              color="primary"
-              className="w-[50%]"
-            >
-              Close
-            </Button>
-          </div>
-        </Fade>
-      </Modal>
+      {isCartOpen && <Cart handleClose={handleClose} />}
     </div>
   );
 };
